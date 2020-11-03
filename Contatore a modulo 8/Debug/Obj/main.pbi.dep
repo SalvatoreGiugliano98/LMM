@@ -1,16 +1,15 @@
-main.pbi: \
-  D:\universit‡\LMM\Contatore\ a\ modulo\ 8\..\Librerie\system_stm32f30x.h \
-  D:\universit‡\LMM\Contatore\ a\ modulo\ 8\..\Librerie\core_cm4_simd.h \
-  D:\universit‡\LMM\Contatore\ a\ modulo\ 8\..\Librerie\core_cmFunc.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\iccarm_builtin.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\cmsis_iar.h \
-  D:\universit‡\LMM\Contatore\ a\ modulo\ 8\..\Librerie\core_cmInstr.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Product.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Config_Normal.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Defaults.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\yvals.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\ycheck.h \
+main.pbi: C:\Users\salva\Desktop\LMM\Contatore\ a\ modulo\ 8\main.cpp \
+  C:\Users\salva\Desktop\LMM\Contatore\ a\ modulo\ 8\..\Librerie\stm32f30x.h \
+  C:\Users\salva\Desktop\LMM\Contatore\ a\ modulo\ 8\..\Librerie\core_cm4.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\stdint.h \
-  D:\universit‡\LMM\Contatore\ a\ modulo\ 8\..\Librerie\core_cm4.h \
-  D:\universit‡\LMM\Contatore\ a\ modulo\ 8\..\Librerie\stm32f30x.h \
-  D:\universit√†\LMM\Contatore\ a\ modulo\ 8\main.cpp
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\DLib_Product.h \
+  C:\Users\salva\Desktop\LMM\Contatore\ a\ modulo\ 8\..\Librerie\core_cmInstr.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c\cmsis_iar.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4_2\arm\inc\c/iccarm_builtin.h \
+  C:\Users\salva\Desktop\LMM\Contatore\ a\ modulo\ 8\..\Librerie\core_cmFunc.h \
+  C:\Users\salva\Desktop\LMM\Contatore\ a\ modulo\ 8\..\Librerie\core_cm4_simd.h \
+  C:\Users\salva\Desktop\LMM\Contatore\ a\ modulo\ 8\..\Librerie\system_stm32f30x.h

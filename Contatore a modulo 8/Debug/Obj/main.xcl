@@ -1,17 +1,17 @@
-"D:\università\LMM\Contatore a modulo 8\main.cpp"
+"C:\Users\salva\Desktop\LMM\Contatore a modulo 8\main.cpp"
 -std=c++17
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-D:\università\LMM\Contatore a modulo 8\Debug\Obj\main.pbi.dep
+C:\Users\salva\Desktop\LMM\Contatore a modulo 8\Debug\Obj\main.pbi.dep
 -o
 main.pbi
 -I
-D:\università\LMM\Contatore a modulo 8
+C:\Users\salva\Desktop\LMM\Contatore a modulo 8
 -I
-D:\università\LMM\Contatore a modulo 8\..\Librerie\
+C:\Users\salva\Desktop\LMM\Contatore a modulo 8\..\Librerie\
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\arm\inc
 -I
@@ -19,7 +19,7 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\arm\inc\c
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\arm\inc\cpp
 -I
-D:\università\LMM\Librerie
+C:\Users\salva\Desktop\LMM\Librerie
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
