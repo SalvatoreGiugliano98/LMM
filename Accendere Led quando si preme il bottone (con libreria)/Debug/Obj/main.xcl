@@ -1,15 +1,15 @@
-"D:\università\LMM\Accendere Led quando si preme il bottone (con libreria)\main.cpp"
+"C:\Users\salva\Desktop\LMM\Accendere Led quando si preme il bottone (con libreria)\main.cpp"
 -std=c++17
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-D:\università\LMM\Accendere Led quando si preme il bottone (con libreria)\Debug\Obj\main.pbi.dep
+C:\Users\salva\Desktop\LMM\Accendere Led quando si preme il bottone (con libreria)\Debug\Obj\main.pbi.dep
 -o
 main.pbi
 -I
-D:\università\LMM\Accendere Led quando si preme il bottone (con libreria)
+C:\Users\salva\Desktop\LMM\Accendere Led quando si preme il bottone (con libreria)
 -I
 D:\università\LMM\Librerie\
 -I

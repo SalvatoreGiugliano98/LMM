@@ -1,24 +1,24 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.50.6.265/W32 for ARM                  02/Nov/2020  15:55:44
+# IAR ELF Linker V8.50.6.265/W32 for ARM                  03/Nov/2020  09:08:48
 # Copyright 2007-2020 IAR Systems AB.
 #
 #    Output file  =
-#        D:\università\LMM\Contatore a modulo 8\Debug\Exe\Contatore a modulo
-#        8.out
+#        C:\Users\salva\Desktop\LMM\Contatore a modulo 8\Debug\Exe\Contatore a
+#        modulo 8.out
 #    Map file     =
-#        D:\università\LMM\Contatore a modulo 8\Debug\List\Contatore a modulo
-#        8.map
+#        C:\Users\salva\Desktop\LMM\Contatore a modulo 8\Debug\List\Contatore a
+#        modulo 8.map
 #    Command line =
-#        -f C:\Users\salva\AppData\Local\Temp\EW6DC2.tmp
-#        ("D:\università\LMM\Contatore a modulo 8\Debug\Obj\main.o"
-#        --no_out_extension -o "D:\università\LMM\Contatore a modulo
+#        -f C:\Users\salva\AppData\Local\Temp\EW38C5.tmp
+#        ("C:\Users\salva\Desktop\LMM\Contatore a modulo 8\Debug\Obj\main.o"
+#        --no_out_extension -o "C:\Users\salva\Desktop\LMM\Contatore a modulo
 #        8\Debug\Exe\Contatore a modulo 8.out" --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
-#        "D:\università\LMM\Contatore a modulo 8\Debug\List\Contatore a modulo
-#        8.map" --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
-#        8.4_2\arm\config\linker\ST\stm32f303xC.icf" --semihosting --entry
-#        __iar_program_start --vfe --text_out locale)
+#        "C:\Users\salva\Desktop\LMM\Contatore a modulo 8\Debug\List\Contatore
+#        a modulo 8.map" --config "C:\Program Files (x86)\IAR Systems\Embedded
+#        Workbench 8.4_2\arm\config\linker\ST\stm32f303xC.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
 
@@ -102,7 +102,7 @@ command line/config:
     -------------------------------------------
     Total:
 
-D:\università\LMM\Contatore a modulo 8\Debug\Obj: [1]
+C:\Users\salva\Desktop\LMM\Contatore a modulo 8\Debug\Obj: [1]
     main.o                 76
     -------------------------------------------
     Total:                 76
@@ -163,7 +163,7 @@ exit                     0x800'00d3   0x4  Code  Gb  exit.o [2]
 main                     0x800'0041  0x4c  Code  Gb  main.o [1]
 
 
-[1] = D:\università\LMM\Contatore a modulo 8\Debug\Obj
+[1] = C:\Users\salva\Desktop\LMM\Contatore a modulo 8\Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a
