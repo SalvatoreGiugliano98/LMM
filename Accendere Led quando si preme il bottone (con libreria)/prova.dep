@@ -31,6 +31,7 @@
             <file>$PROJ_DIR$\main.cpp</file>
             <file>$PROJ_DIR$\Debug\Exe\prova.out</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\prova.pbd</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>

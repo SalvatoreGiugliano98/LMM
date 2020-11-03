@@ -6,5 +6,8 @@
     <project>
         <path>$WS_DIR$\..\Accendere Led quando si preme il bottone (con libreria)\prova.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\Reset Schedina\Reset.ewp</path>
+    </project>
     <batchBuild />
 </workspace>
