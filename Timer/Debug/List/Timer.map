@@ -1,0 +1,190 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.6.265/W32 for ARM                  03/Nov/2020  11:20:53
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =  C:\Users\salva\Desktop\LMM\Timer\Debug\Exe\Timer.out
+#    Map file     =  C:\Users\salva\Desktop\LMM\Timer\Debug\List\Timer.map
+#    Command line =
+#        -f C:\Users\salva\AppData\Local\Temp\EW28FE.tmp
+#        (C:\Users\salva\Desktop\LMM\Timer\Debug\Obj\main.o --no_out_extension
+#        -o C:\Users\salva\Desktop\LMM\Timer\Debug\Exe\Timer.out --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
+#        C:\Users\salva\Desktop\LMM\Timer\Debug\List\Timer.map --config
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.4_2\arm\config\linker\ST\stm32f303xC.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor        = *
+__CPP_Exceptions = Disabled
+__CPP_Language   = C++14
+__SystemLibrary  = DLib
+__dlib_version   = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'9fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  section .ccmram  in "P3"
+
+
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                      0x40
+  .intvec          ro code   0x800'0000    0x40  vector_table_M.o [3]
+                           - 0x800'0040    0x40
+
+"P1":                                     0x16c
+  .text            ro code   0x800'0040    0xa4  main.o [1]
+  .text            ro code   0x800'00e4    0x3a  zero_init3.o [3]
+  .text            ro code   0x800'011e     0x2  vector_table_M.o [3]
+  .text            ro code   0x800'0120    0x28  data_init.o [3]
+  .iar.init_table  const     0x800'0148    0x10  - Linker created -
+  .text            ro code   0x800'0158    0x1e  cmain.o [3]
+  .text            ro code   0x800'0176     0x4  low_level_init.o [2]
+  .text            ro code   0x800'017a     0x4  exit.o [2]
+  .rodata          const     0x800'017e     0x1  unwind_debug.o [4]
+  .text            ro code   0x800'0180     0xa  cexit.o [3]
+  .text            ro code   0x800'018c    0x14  exit.o [4]
+  .text            ro code   0x800'01a0     0xc  cstartup_M.o [3]
+  .rodata          const     0x800'01ac     0x0  zero_init3.o [3]
+                           - 0x800'01ac   0x16c
+
+"P2", part 1 of 2:                          0x4
+  .bss             zero     0x2000'0000     0x2  main.o [1]
+                          - 0x2000'0002     0x2
+
+"P2", part 2 of 2:                       0x2000
+  CSTACK                    0x2000'0008  0x2000  <Block>
+    CSTACK         uninit   0x2000'0008  0x2000  <Block tail>
+                          - 0x2000'2008  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'01ac   0x803'ffff  0x3'fe54
+  0x2000'0004  0x2000'0007       0x4
+  0x2000'2008  0x2000'9fff    0x7ff8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2:
+          0x2000'0000   0x2
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\salva\Desktop\LMM\Timer\Debug\Obj: [1]
+    main.o                164                 2
+    -------------------------------------------
+    Total:                164                 2
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+rt7M_tl.a: [3]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           12
+    data_init.o            40
+    vector_table_M.o       66
+    zero_init3.o           58
+    -------------------------------------------
+    Total:                216
+
+shb_l.a: [4]
+    exit.o                 20
+    unwind_debug.o                   1
+    -------------------------------------------
+    Total:                 20        1
+
+    Gaps                    3
+    Linker created                  16    8'192
+-----------------------------------------------
+    Grand Total:          411       17    8'194
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0x800'0148         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0158         --   Gb  - Linker created -
+?main                    0x800'0159        Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2008         --   Gb  - Linker created -
+Region$$Table$$Base      0x800'0148         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0158         --   Gb  - Linker created -
+__cmain                  0x800'0159        Code  Gb  cmain.o [3]
+__exit                   0x800'018d  0x14  Code  Gb  exit.o [4]
+__iar_data_init3         0x800'0121  0x28  Code  Gb  data_init.o [3]
+__iar_debug_exceptions   0x800'017e   0x1  Data  Gb  unwind_debug.o [4]
+__iar_program_start      0x800'01a1        Code  Gb  cstartup_M.o [3]
+__iar_zero_init3         0x800'00e5  0x3a  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'0177   0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000        Data  Gb  vector_table_M.o [3]
+_call_main               0x800'0165        Code  Gb  cmain.o [3]
+_exit                    0x800'0181        Code  Gb  cexit.o [3]
+_main                    0x800'0173        Code  Gb  cmain.o [3]
+exit                     0x800'017b   0x4  Code  Gb  exit.o [2]
+flag                    0x2000'0000   0x2  Data  Gb  main.o [1]
+main                     0x800'0041  0xa4  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\salva\Desktop\LMM\Timer\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    411 bytes of readonly  code memory
+     17 bytes of readonly  data memory
+  8'194 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
