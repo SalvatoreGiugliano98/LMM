@@ -9,5 +9,8 @@
     <project>
         <path>$WS_DIR$\..\Reset Schedina\Reset.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\Timer\Timer.ewp</path>
+    </project>
     <batchBuild />
 </workspace>

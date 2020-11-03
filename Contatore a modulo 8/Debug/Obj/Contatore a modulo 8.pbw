@@ -86995,7 +86995,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "5",
+      "line": "6",
       "path": "C:\\Users\\salva\\Desktop\\LMM\\Contatore a modulo 8\\main.cpp"
     },
     "name": "main",
@@ -87003,13 +87003,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.cpp@531@F@main#@count",
+    "ID": "c:main.cpp@533@F@main#@count",
     "What": "Variable",
     "defdec": "Def",
     "display": "count",
     "location": {
       "column": "7",
-      "line": "11",
+      "line": "12",
       "path": "C:\\Users\\salva\\Desktop\\LMM\\Contatore a modulo 8\\main.cpp"
     },
     "name": "count",
