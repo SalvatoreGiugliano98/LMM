@@ -86631,10 +86631,24 @@
     "display": "flag",
     "location": {
       "column": "11",
-      "line": "3",
+      "line": "5",
       "path": "C:\\Users\\salva\\Desktop\\LMM\\Timer\\main.cpp"
     },
     "name": "flag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@enable",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "enable",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\Users\\salva\\Desktop\\LMM\\Timer\\main.cpp"
+    },
+    "name": "enable",
     "origin": "project_file",
     "scope": null
   },
@@ -86645,7 +86659,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "5",
+      "line": "7",
       "path": "C:\\Users\\salva\\Desktop\\LMM\\Timer\\main.cpp"
     },
     "name": "main",
