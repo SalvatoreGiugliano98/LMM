@@ -1,0 +1,16 @@
+[
+  {
+    "ID": "c:@F@main#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "D:\\universit\u00e0\\LMM\\Accendere Led quando si preme il bottone (con libreria)\\main.cpp"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]

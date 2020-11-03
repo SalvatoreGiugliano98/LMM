@@ -1,0 +1,16 @@
+[
+  {
+    "ID": "c:@F@main#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "3",
+      "path": "D:\\universit\u00e0\\LMM\\Contatore a modulo 8\\main.cpp"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]
