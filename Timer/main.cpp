@@ -3,25 +3,27 @@
 //quetso preogramma crea un contatore che accende (o spegne) tutti i led ogni volta che raggiunge la sua unità di tempo, in questo caso un secondo
 
 short int flag = 0; // controlla se il led è accesso oppure spento
-bool enable = false;
+bool enable = false; //Indica se il timer è abilitato oppure no
+
 void main()
 {
   RCC->AHBENR |= RCC_AHBENR_GPIOEEN | RCC_AHBENR_GPIOAEN;  //Abilita la porta E e la porta A
   RCC->APB1ENR |= RCC_APB1ENR_TIM2EN; // Abilita il timer 2
-  GPIOE->MODER = 0X55550000; //I led sono impostati come output
+  GPIOE->MODER = 0X55550000; //Tutti i led sono impostati come output
   GPIOA->MODER &= ~GPIO_MODER_MODER0; //Abilita PA0 come input, ovvero il tasto user
   
-  TIM2->CR1 |= TIM_CR1_CEN; //Abilita il conteggio
+  //Prima bisogna settare i valori del Timer e poi abilitarlo
   TIM2->ARR = 8000000; //importa sa durata t = 1 secondo; N = t*8MHz (8MHz è la frequenza della Schedina)
   TIM2->CNT = 0; //azzera il conteggio
+  TIM2->CR1 |= TIM_CR1_CEN; //Abilita il conteggio
   
   while(1){
-    if((TIM2->SR & TIM_SR_UIF)==TIM_SR_UIF && !flag) { //Controlla se il timer ha raggiunto la prossima unità di tempo ed è spento il led
+    if((TIM2->SR & TIM_SR_UIF)==TIM_SR_UIF && !flag) { //Controlla se il timer ha raggiunto la prossima unità di tempo ed i led sono spenti
       GPIOE->ODR = 0x0000FF00; //accende i led
       TIM2->SR &= ~TIM_SR_UIF; //azzera l'UIF
       flag = 1; //Segnale che il led è acceso
     }
-    if ((TIM2->SR & TIM_SR_UIF)==TIM_SR_UIF && flag) { //Controlla se il timer ha raggiunto la prossima unità di tempo ed è acceso il led
+    if ((TIM2->SR & TIM_SR_UIF)==TIM_SR_UIF && flag) { //Controlla se il timer ha raggiunto la prossima unità di tempo ed i led sono accesi
       GPIOE->ODR = 0; //spegne i led
       TIM2->SR &= ~TIM_SR_UIF; // azzerla l'uif
       flag = 0; //segnala che i led sono spenti

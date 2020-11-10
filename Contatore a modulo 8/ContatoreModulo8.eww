@@ -12,5 +12,8 @@
     <project>
         <path>$WS_DIR$\..\Timer\Timer.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\Timer come contatore\Timer - Contatore.ewp</path>
+    </project>
     <batchBuild />
 </workspace>
