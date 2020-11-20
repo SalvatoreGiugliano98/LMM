@@ -5,80 +5,77 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\Contatore a modulo 8.pbd</file>
             <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\..\Librerie\core_cm4_simd.h</file>
+            <file>$PROJ_DIR$\main.cpp</file>
             <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_nc.a</file>
             <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\..\Librerie\core_cm4_simd.h</file>
             <file>$PROJ_DIR$\..\Librerie\system_stm32f30x.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\..\Timer\main.cpp</file>
-            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\Contatore a modulo 8.out</file>
-            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\..\Librerie\core_cm4.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\..\Librerie\stm32f30x.h</file>
             <file>$PROJ_DIR$\..\Librerie\core_cmFunc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\Librerie\stm32f30x.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Exe\Contatore a modulo 8.out</file>
+            <file>$PROJ_DIR$\..\Librerie\core_cm4.h</file>
             <file>$PROJ_DIR$\..\Librerie\core_cmInstr.h</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$PROJ_DIR$\Debug\List\Contatore a modulo 8.map</file>
-            <file>$PROJ_DIR$\main.cpp</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\..\Timer come contatore\main.cpp</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 13 23</file>
+                    <file> 19 25</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\Contatore a modulo 8.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 23</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 11 5 9 25 3 2 8</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\main.cpp</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 5</file>
+                    <file> 6</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 4</file>
+                    <file> 5</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 1</file>
+                    <file> 0</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 19 17 12 26 22 27 15 16 21 14 18 20 6 7</file>
+                    <file> 11 20 10 12 22 15 24 16 21 23 14 9 2 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Contatore a modulo 8.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 13 6 8 17 4 1 18</file>
                 </tool>
             </inputs>
         </file>

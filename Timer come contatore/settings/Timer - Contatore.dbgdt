@@ -854,7 +854,7 @@
             <IarPane-34098>
                 <expressions>
                     <item>tempo</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>
