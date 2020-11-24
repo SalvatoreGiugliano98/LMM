@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\Interruzioni.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\Interruzioni con timer\main.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

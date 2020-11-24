@@ -29,6 +29,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 //#include "main.h"
+#include <stm32f30x.h>
 
 /** @addtogroup STM32F3_Discovery_Peripheral_Examples
   * @{
@@ -171,3 +172,4 @@ void SysTick_Handler(void)
 
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+
