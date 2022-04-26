@@ -36,7 +36,7 @@ void main()
 void generaSinusiode (float ampiezza) {
   float Vsin;
   for (int i = 0; i < N; i++) {
-    Vsin = 1.5 + (ampiezza * sin(2*pi*i/N));
+    Vsin = ampiezza + (ampiezza * sin((2*pi*i)/N));
     sinusoide[i] = (short int)(Vsin*4095.0/3.0);
   }
 }
@@ -45,11 +45,14 @@ int j = 0;
 
 void TIM2_IRQHandler(){
   TIM2->SR = 0;
-  if (j == N) j = 0;
+  if (j == N) {
+    j = 0;
+    printf("Sinusoide ultimata\n");
+  }
   DAC->SWTRIGR |= DAC_SWTRIGR_SWTRIG1;
   for(int i = 0; i < 1000;i++); //attesa di 10 µs per la generazione della tensione
   DAC->DHR12R1 = sinusoide[j];
-  printf("il valore del DAC è: %d",DAC->DHR12R1);
+  printf("il valore del DAC è: %d \n",DAC->DHR12R1);
   j++;
 }
 

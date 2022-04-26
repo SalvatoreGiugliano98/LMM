@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\main.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\Progetto 2 - Accednere più LED\main.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\Progetto 3 - Accendere LED con il tasto USER\main.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

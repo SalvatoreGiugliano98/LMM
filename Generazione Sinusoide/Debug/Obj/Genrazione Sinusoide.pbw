@@ -91167,7 +91167,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@85@macro@pi",
+    "ID": "c:main.c@86@macro@pi",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "pi",
@@ -91186,7 +91186,7 @@
     "defdec": "Dec",
     "display": "sinusoide",
     "location": {
-      "column": "7",
+      "column": "11",
       "line": "7",
       "path": "C:\\Users\\salva\\Desktop\\LMM\\Generazione Sinusoide\\main.c"
     },
@@ -91251,13 +91251,27 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@958@F@generaSinusiode@i",
+    "ID": "c:main.c@959@F@generaSinusiode@Vsin",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Vsin",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "C:\\Users\\salva\\Desktop\\LMM\\Generazione Sinusoide\\main.c"
+    },
+    "name": "Vsin",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@979@F@generaSinusiode@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "37",
+      "line": "38",
       "path": "C:\\Users\\salva\\Desktop\\LMM\\Generazione Sinusoide\\main.c"
     },
     "name": "i",
@@ -91271,7 +91285,7 @@
     "display": "j",
     "location": {
       "column": "5",
-      "line": "42",
+      "line": "44",
       "path": "C:\\Users\\salva\\Desktop\\LMM\\Generazione Sinusoide\\main.c"
     },
     "name": "j",
@@ -91285,7 +91299,7 @@
     "display": "void TIM2_IRQHandler(void)",
     "location": {
       "column": "6",
-      "line": "44",
+      "line": "46",
       "path": "C:\\Users\\salva\\Desktop\\LMM\\Generazione Sinusoide\\main.c"
     },
     "name": "TIM2_IRQHandler",
@@ -91293,13 +91307,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1172@F@TIM2_IRQHandler@i",
+    "ID": "c:main.c@1291@F@TIM2_IRQHandler@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "48",
+      "line": "53",
       "path": "C:\\Users\\salva\\Desktop\\LMM\\Generazione Sinusoide\\main.c"
     },
     "name": "i",

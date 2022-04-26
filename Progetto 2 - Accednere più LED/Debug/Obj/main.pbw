@@ -1,0 +1,72 @@
+[
+  {
+    "ID": "c:main.c@8@macro@RCC_AHBENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHBENR",
+    "location": {
+      "column": "9",
+      "line": "1",
+      "path": "C:\\Users\\salva\\Desktop\\LMM\\Progetto 2 - Accednere pi\u00f9 LED\\main.c"
+    },
+    "name": "RCC_AHBENR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@44@macro@GPIOE_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE_MODER",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\salva\\Desktop\\LMM\\Progetto 2 - Accednere pi\u00f9 LED\\main.c"
+    },
+    "name": "GPIOE_MODER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@80@macro@GPIO_ODR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_ODR",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Users\\salva\\Desktop\\LMM\\Progetto 2 - Accednere pi\u00f9 LED\\main.c"
+    },
+    "name": "GPIO_ODR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@p",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "p",
+    "location": {
+      "column": "15",
+      "line": "5",
+      "path": "C:\\Users\\salva\\Desktop\\LMM\\Progetto 2 - Accednere pi\u00f9 LED\\main.c"
+    },
+    "name": "p",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "7",
+      "path": "C:\\Users\\salva\\Desktop\\LMM\\Progetto 2 - Accednere pi\u00f9 LED\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]
